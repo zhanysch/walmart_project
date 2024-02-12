@@ -27,7 +27,7 @@ class CountryViewHolder(private val binding: CountryItemsBinding) :
     fun bind(country: Country) {
         binding.apply {
            countriesName.text = country.name
-            countriesRegion.text = "${country.region}, ${country.code}"
+            countriesRegion.text = "${country.region},  ${country.code}"
             countriesCapital.text = country.capital
         }
     }
